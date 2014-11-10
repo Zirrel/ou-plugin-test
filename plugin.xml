@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="uk.ac.open.plugin.Echo" version="0.2.3">
-    <name>EchoPlugin</name>
-    <description>Cordova Echo Plugin</description>
+    id="uk.ac.open.ouanywhere.crypto" version="0.2.3">
+    <name>Crypto</name>
+    <description>Crypto Plugin</description>
     <license>Apache 2.0</license>
-    <keywords>cordova,echo</keywords>
-    <js-module src="www/EchoPlugin.js" name="echo">
-        <clobbers target="echo" />
+    <keywords>cordova,crypto</keywords>
+    <js-module src="www/crypto.js" name="crypto">
+        <clobbers target="crypto" />
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="echo">
-                <param name="ios-package" value="Echo"/>
+            <feature name="crypto">
+                <param name="ios-package" value="CDVCrypto"/>
             </feature>
         </config-file>
-        <header-file src="src/ios/Echo.h" />
-        <source-file src="src/ios/Echo.m" />
+        <header-file src="src/ios/CDVCrypto.h" />
+        <source-file src="src/ios/CDVCrypto.m" />
     </platform>
 </plugin>
