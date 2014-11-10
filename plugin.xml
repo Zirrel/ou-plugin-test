@@ -6,11 +6,11 @@
     <license>Apache 2.0</license>
     <keywords>cordova,echo</keywords>
     <js-module src="www/EchoPlugin.js" name="echo">
-        <clobbers target="window.echo" />
+        <clobbers target="echo" />
     </js-module>
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="Echo">
+            <feature name="echo">
                 <param name="ios-package" value="Echo"/>
             </feature>
         </config-file>
