@@ -5,7 +5,7 @@
     <description>Cordova Echo Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,echo</keywords>
-    <js-module src="www/EchoPlugin.js" name="device">
+    <js-module src="www/EchoPlugin.js" name="echo">
         <clobbers target="echo" />
     </js-module>
     <platform name="ios">
