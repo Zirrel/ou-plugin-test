@@ -6,7 +6,8 @@ var PluginTester = (function(){
         "AccessibilityStatusCheck",
         "Unzipper",
         "KeyboardNotifications",
-        "MoviePlayer"
+        "MoviePlayer",
+        "FileOpener"              
     ];
     var PluginResults = {};
     

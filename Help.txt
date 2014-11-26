@@ -3,9 +3,14 @@ Create a boilerplate Cordova application and add the ios and android platforms.
 Copy the contents of this www folder into your new Cordova www folder.
 
 iOS
-Open your new Cordova Xcode project - build the application to run the unit tests.
+Open your new Cordova Xcode project - build the application to run the unit tests. The tests will fail, so install the plugins and re-run the tests.
+
+To run the tests from within the OU app, make the following changes to ouanywhere.js;
+comment out the line “this.render('LOGIN’);” and below this line add “PluginTester.Init();”
+Do this from inside method OUApp.app.OUAnywhere.prototype.startingView - this will override the OU app login screen with the tester UI. Now in index.html, include plugintester.js and jquery-1.11.1.min.js
 
 Android
+
 
 Plugin repo’s
 https://github.com/Zirrel/uk.ac.open.ouanywhere.keyboardnotifications.git
