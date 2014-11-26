@@ -1,0 +1,19 @@
+Create a boilerplate Cordova application and add the ios and android platforms.
+
+Copy the contents of this www folder into your new Cordova www folder.
+
+iOS
+Open your new Cordova Xcode project - build the application to run the unit tests.
+
+Android
+
+Plugin repo’s
+https://github.com/Zirrel/uk.ac.open.ouanywhere.keyboardnotifications.git
+https://github.com/Zirrel/uk.ac.open.ouanywhere.accessibilitystatuscheck.git
+https://github.com/Zirrel/uk.ac.open.ouanywhere.extractzipfileplugin.git
+https://github.com/Zirrel/uk.ac.open.ouanywhere.analytics.git
+https://github.com/Zirrel/com.dawsonloudon.videoplayer.git
+https://github.com/Zirrel/uk.ac.open.ouanywhere.crypto.git
+https://github.com/Zirrel/uk.ac.open.ouanywhere.fileopener.git
+
+ 
